@@ -54,4 +54,17 @@ const createBike = (brand, wheels, gear, price) => {
 const bike1 = createBike('NycBikes', 8, 'rxmax', 8978);
 
 
+// ***************************************
 
+
+const houseSpecs = (sqf, rooms, backyard, pool, garage, zone, address) => {
+  return {
+    sqf,
+    rooms,
+    backyard,
+    pool,
+    garage,
+    zone,
+    address
+  };
+};
